@@ -6,3 +6,5 @@
 -импортировать файл new-bd.sql в базу shop 
 ### Ветки
 Artur branch
+
+default brench master

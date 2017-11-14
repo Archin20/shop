@@ -17,6 +17,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/shop-homepage.css" rel="stylesheet">
@@ -33,25 +34,29 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto mouseout">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="static.php?url=About">About</a>
+              <a class="nav-link menu" data-color="green" data-body="Тут больше о нашей компании ТЕКСТ
+			  ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ" href="static.php?url=About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="static.php?url=services">Services</a>
+              <a class="nav-link menu" data-body='Тут больше о нашей компании ТЕКСТ
+			  ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ' href="static.php?url=services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="static.php?url=contacts">Contact</a>
+              <a class="nav-link menu" data-body='Тут больше о нашей компании ТЕКСТ
+			  ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ' href="static.php?url=contacts">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+	<div id="title">welcome to hell </div>
 
     <!-- Page Content -->
     <div class="container">
